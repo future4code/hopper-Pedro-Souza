@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+.menu{
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    justify-content: space-around;
+}
+
+.menu span{
+    font-weight: bold;
+}
+
+.menu span:hover{
+    opacity: 60%;
+}
+
+.perfil-descricao{
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    height: 250px;
+}
+
+.perfil>img{
+    margin: 25px 25px;
+    height: 200px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.descricao{
+    background-color: rgb(22, 22, 22);
+    margin: 85px 0px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.descricao>h6{
+    margin: 10px;
+    font-size:large;
+    color:green
+}
+
+.titulos{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    color: green;
+    margin:20px;
+}
+
+.listas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:50px;
+    margin:0px 150px;
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+}
+
+.listas img{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lista-texto{
+    padding: 35px 0px;
+    font-weight: bold;
+}
+
+.lista-passaros{
+    padding: 10px 0 0 0;
+}
+
+.meusProjetos{
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 50px;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.meusProjetos img{
+    height: 170px;
+    text-align: center;
+}
+
+.meusProjetos img:hover{
+    opacity: 60%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 25px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.skills img{
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+}
+
+.skills span{
+    display: block;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.gimp-shotcut-imagens{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 25px;
+}
+
+.formulario-texto{
+    padding: 100px 395px;
+}
+
+.redes{
+    display:flex;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 25px;
+    justify-content: space-around;
+}
+
+.redes img{
+    height: 80px;
+}
+
+.redes img:hover{
+    opacity: 60%;
+}
+
+.projeto-JS{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 25px; 
+    align-items: center;
+}
+
+.projeto-JS img{
+    display: block;
+}
+
+.projeto-JS span{
+    display: block;
+    padding: 25px 0;
+    font-weight: bold;
+}
+
+.projeto-JS-tec{
+    display:flex;
+    background-color: rgb(221, 221, 221);
+    margin: 0 150px;
+    padding: 25px 25px; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projeto-JS-tec img{
+    height: 200px;
+}
