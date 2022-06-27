@@ -1,0 +1,9 @@
+link do surge: curvy-pizzas.surge.sh
+
+HOME -> https://wireframe.cc/XeIyOR
+LISTA_PUBLICO -> https://wireframe.cc/xHKNRF
+FORMULARIO_PUBLICO -> https://wireframe.cc/MCjJV1
+LOGIN_PRIVADO -> https://wireframe.cc/o9K5Dm
+PAINELADMIN_PRIVADO -> https://wireframe.cc/ATaSQ5
+CRIAR_VIAGEM_PRIVADO -> https://wireframe.cc/gDCk6e
+DETALHES_VIAGEM_PRIVADO -> https://wireframe.cc/H4tOzd
